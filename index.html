@@ -3,23 +3,23 @@
 
 <html  lang="tr" dir="ltr" data-cast-api-enabled="true">
 <head>
-<title>Görme Engellilere Hizmet Veren Kütüphanelerin Ortak Portalı | Arama Yapma Sayfası</title>
-<link rel="icon" href="./files/photos/gormeengellogo.png" type="image/gif" sizes="16x16">
+<title>Open Your Computer</title>
+<link rel="icon" href="./files/photos/on_off_logo.png" type="image/gif" sizes="16x16">
 <meta charset="UTF-8">
-<meta name="author" content="Engin Yılmaz, Kaya Sertel">
+<meta name="author" content="Kaya Sertel">
 <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=0, minimum-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />-->
 <meta name="viewport" content="width=device-width" />
-<meta name="description" content="Bu sitede görme engelliler için çalışan bir kütüphane sisteminin tadını çıkarabilirsiniz.">
-<meta name="keywords" content="görme engelli, kütüphane, engelli">
-<meta name="url" content="https://genkutup.org/">
-<link rel="canonical" href="https://genkutup.org/">
+<meta name="description" content="In thisw site you can open your personel computer.">
+<meta name="keywords" content="compter opener">
+<meta name="url" content="https://kayasrtl.github.io/openmycomputer/">
+<link rel="canonical" href="https://kayasrtl.github.io/openmycomputer/">
 <meta name="robots" content="index, follow">
-<meta property="og:image" content="https://genkutup.org/files/photos/gormeengellogo.png">
+<meta property="og:image" content="https://kayasrtl.github.io/openmycomputer/files/photos/on_off_logo.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="500">
 <meta property="og:image:height" content="500">
-<meta name="msapplication-TileImage" content="https://genkutup.org/files/photos/gormeengellogo.png">
+<meta name="msapplication-TileImage" content="https://kayasrtl.github.io/openmycomputer/files/photos/on_off_logo.png">
 <noscript>
 <style>
 .main_noscript_div {
@@ -101,13 +101,24 @@
 
 <body>  
 <div class="top_div">
+	<div><button class="reset_button" onClick="resetKey()">Reset The Github Key</button>
+	</div>
 <p class="top_text">Opening computer site</p>
+		<div>
+	</div>
 </div>
 <div class="main_div">
-<div class="search_part_form">
-  <button class="search_button" onClick="changeJsonCurrentTime()">Open Computer</button>
+<div class="button_input_part">
+	  <input href="javascript:void(0)" class="key_input" type="search" id="key_input_submit" name="Search"
+   placeholder="Github key giriniz."
+   aria-label="Search through site content">
+  <button class="open_comp_button" onClick="changeJsonCurrentTime()"></button>
+  
 </div>
-
+<div class="checkboxdiv">
+	<input type="checkbox" id="remembercheckbox" name="rememberme" value="rememberme">
+	<label for="rememberme"  style="color: black;"> Remember the key</label>
+</div>
 </div>
 </body>
 </html>
