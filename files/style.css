@@ -26,12 +26,17 @@ html body {
 	top: 0;
 	display: flex;    
 	align-items: center;
-    justify-content: center;
+        justify-content: space-between;
 }
 
 .top_text {
 	color: white;
 	font-size: 20px;
+}
+
+.reset_button {
+	display: block;
+	cursor: pointer;
 }
 
 .main_div {
@@ -40,4 +45,40 @@ html body {
 	justify-content: center;
     align-items: center;
 	    flex-direction: column;
+}
+
+.button_input_part {
+	display: flex;
+	cursor: pointer;
+}
+
+.open_comp_button {
+	background-image: url('./photos/on_off_logo.png');
+	  background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
+	border: none;
+	cursor: pointer;
+	height: 10vh;
+	width: 10vh;
+	font-size: 2vh;
+	background-color: white;
+	border-radius: 10vh;
+	color: black;
+	margin: 20px;
+}
+
+.key_input {
+	height: 10vh;
+	width: 20vw;
+	font-size: 2vh;
+	background: black;
+	border: none;
+	border-radius: 10vh;
+	color: white;
+	margin: 20px;
+}
+
+#remembercheckbox {
+	cursor: pointer;
 }
